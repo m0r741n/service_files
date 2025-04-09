@@ -18,3 +18,5 @@ EOF
 systemctl daemon-reload
 systemctl enable gaiad
 systemctl restart gaiad
+
+#ansible command: wget -O - https://raw.githubusercontent.com/m0r741n/service_files/refs/heads/main/gaia_auto.sh | bash
