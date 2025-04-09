@@ -1,3 +1,4 @@
+#!/bin/bash
 tee <<EOF >/dev/null /etc/systemd/system/gaiad.service
 [Unit]
 Description=gaia_auto
