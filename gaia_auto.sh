@@ -9,7 +9,8 @@ RemainAfterExit=yes
 User=root
 WorkingDirectory=/root/gaianet/bin/
 ExecStart=/root/gaianet/bin/gaianet "start"
-Restart=no
+Restart=on-failure
+RestartSec=15
 LimitNOFILE=65535
 [Install]
 WantedBy=multi-user.target
